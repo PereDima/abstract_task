@@ -1,11 +1,10 @@
-
 // TODO:  To run project use comman -->  tsc -w
 
 // Live server http://127.0.0.1:5500/abstract_task/main.html
 
+abstract class Car {
+  // ES {Lint} is freaking me out!!!!
 
-abstract class Car {   // ES {Lint} is freaking me out!!!!
-  
   abstract move();
 
   constructor(
